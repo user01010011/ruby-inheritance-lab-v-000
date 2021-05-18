@@ -1,5 +1,5 @@
 class Student < User
-  
+
   def initialize
     @knowledge = [ ]
   end
@@ -8,8 +8,8 @@ class Student < User
     @knowledge << KNOWLEDGE.sample
   end
 
-  def knowledge 
+  def knowledge
     @knowledge
   end
-    
+
 end
